@@ -30,6 +30,7 @@ const Portfolio = (props) => {
                 {Object.entries(purchases).map((coin, i) => {
                             return (
                                 <div>
+                                    <br/>
                                 <span
                                     key={i}
                                     style={{ color: "green" }}
