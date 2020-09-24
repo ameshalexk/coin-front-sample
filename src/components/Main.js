@@ -29,6 +29,7 @@ const Portfolio = (props) => {
                 <h1 > Transactions:  {console.log(purchases)}</h1>
                 {Object.entries(purchases).map((coin, i) => {
                             return (
+                                <div>
                                 <span
                                     key={i}
                                     style={{ color: "green" }}
@@ -48,6 +49,8 @@ const Portfolio = (props) => {
 
                                     
                                 </span>
+                                <br/>
+                                </div>
                             );
                         })}
 
